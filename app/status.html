@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="statusApp" id="ng-app">
+<head>
+    <title>Status</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,nofollow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <style>
+        body {
+            padding-top: 60px;
+            /* 60px to make the container go all the way to the bottom of the topbar */
+        }
+    </style>
+
+    <!--  You must include bootstrap
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    -->
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+    <link href="css/status.css" rel="stylesheet" />
+
+    <script type="text/javascript" src='https://www.google.com/jsapi'></script>
+
+    
+    <script type="text/javascript" src="js/lib/angular/angular-1.2.4.min.js"></script>
+    <script type="text/javascript" src="js/lib/angular/angular-route.js"></script>
+    <script type="text/javascript" src="js/lib/angular-ui/ui-bootstrap-0.3.0.min.js"></script>
+    <script type="text/javascript" src="js/lib/angular-ui/ui-bootstrap-tpls-0.3.0.min.js"></script>
+    <script type="text/javascript" src="js/lib/countdown.min.js"></script>
+
+    <script type="text/javascript" src="js/angular-status.js"></script>
+
+
+    <!-- Directives --
+    <script type="text/javascript" src="js/directives/metricDataDirective.js"></script>
+    <script type="text/javascript" src="js/directives/timerDataDirective.js"></script>
+    <script type="text/javascript" src="js/directives/gaugeDataDirective.js"></script>
+    <script type="text/javascript" src="js/directives/googleChartDirective.js"></script>
+    <script type="text/javascript" src="js/directives/copyButtonDirective.js"></script>
+
+    <!-- Filters --
+    <script type="text/javascript" src="js/filters/elapsedTimeFilter.js"></script>
+
+    <!-- Controllers -->
+    <script type="text/javascript" src="js/controllers/statusCtrl.js"></script>
+    <script type="text/javascript" src="js/controllers/statusModuleCtrl.js"></script>
+    <!--    
+    <script type="text/javascript" src="js/controllers/logCtrl.js"></script>
+    <script type="text/javascript" src="js/controllers/featureBitCtrl.js"></script>
+    <script type="text/javascript" src="js/controllers/healthCheckCtrl.js"></script>
+    <script type="text/javascript" src="js/controllers/metricsCtrl.js"></script>
+    <script type="text/javascript" src="js/controllers/environmentVariablesCtrl.js"></script>
+    <script type="text/javascript" src="js/controllers/changelogCtrl.js"></script>
+    <script type="text/javascript" src="js/controllers/logFilesCtrl.js"></script>
+
+    <!-- Services -->
+    <script type="text/javascript" src="js/services/restService.js"></script>
+    <script type="text/javascript" src="js/services/requestParamService.js"></script>
+
+    <!--
+    <script type="text/javascript" src="js/lib/ZeroClipboard.min.js"></script>
+    <script type="text/javascript">
+        ZeroClipboard.setDefaults( { moviePath: 'js/lib/ZeroClipboard.swf' } );
+    </script>
+    -->
+
+</head>
+<body >
+
+<div id="statusDiv" class="container mainContent">
+    <div ng-init="init()" ng-controller="StatusModuleCtrl">
+        <h1>Version info</h1>
+        <dl class="dl-horizontal">
+            <dt>Version</dt>
+            <dd>{{properties.version}}</dd>
+        </dl>
+        <dl class="dl-horizontal">
+            <dt>Buildnumber</dt>
+            <dd>{{properties.build}}</dd>
+        </dl>
+        <dl class="dl-horizontal">
+            <dt>Environment</dt>
+            <dd>{{properties.env}}</dd>
+        </dl>
+        <dl class="dl-horizontal">
+            <dt>SSO Server</dt>
+            <dd ng-show="isSsoPropertyAvailable(properties.SSOServer)">{{properties.SSOServer}}
+                <a class="btn btn-small" style="margin-left: 5px;" target="_blank" 
+                    href="{{properties.SSOServer}}/sso/ext/rest/status/?secret=IsSsoUp" >Go to SSO status page</a>
+            </dd>
+
+            <dd ng-hide="isSsoPropertyAvailable(properties.SSOServer)">Not available</dd>
+        </dl>
+        <dl class="dl-horizontal">
+            <dt>SSO Appid</dt>
+            <dd ng-show="isSsoPropertyAvailable(properties.SSOAppid)">{{properties.SSOAppid}}</dd>
+            <dd ng-hide="isSsoPropertyAvailable(properties.SSOAppid)">Not available</dd>
+        </dl>
+    </div>
+    
+</div>
+
+</body>
+</html>

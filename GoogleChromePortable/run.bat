@@ -1,0 +1,1 @@
+call GoogleChromePortable.exe --disable-web-security
