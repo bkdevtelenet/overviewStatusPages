@@ -44,9 +44,11 @@
     <script type="text/javascript" src="js/filters/elapsedTimeFilter.js"></script>
 
     <!-- Controllers -->
-    <script type="text/javascript" src="js/controllers/statusCtrl.js"></script>
+    
     <script type="text/javascript" src="js/controllers/statusModuleCtrl.js"></script>
-    <!--    
+    <script type="text/javascript" src="js/controllers/statusListCtrl.js"></script>
+    <!-- 
+    <script type="text/javascript" src="js/controllers/statusCtrl.js"></script>   
     <script type="text/javascript" src="js/controllers/logCtrl.js"></script>
     <script type="text/javascript" src="js/controllers/featureBitCtrl.js"></script>
     <script type="text/javascript" src="js/controllers/healthCheckCtrl.js"></script>
@@ -68,39 +70,54 @@
 
 </head>
 <body >
+<div ng-controller="StatusListCtrl" >
+    <div ng-repeat="app in applications" class="row">
+        
+        <h3>{{app.name}}</h3>
+        <div ng-repeat="server in app.servers" class="span5">
 
-<div id="statusDiv" class="container mainContent">
-    <div ng-init="init()" ng-controller="StatusModuleCtrl">
-        <h1>Version info</h1>
-        <dl class="dl-horizontal">
-            <dt>Version</dt>
-            <dd>{{properties.version}}</dd>
-        </dl>
-        <dl class="dl-horizontal">
-            <dt>Buildnumber</dt>
-            <dd>{{properties.build}}</dd>
-        </dl>
-        <dl class="dl-horizontal">
-            <dt>Environment</dt>
-            <dd>{{properties.env}}</dd>
-        </dl>
-        <dl class="dl-horizontal">
-            <dt>SSO Server</dt>
-            <dd ng-show="isSsoPropertyAvailable(properties.SSOServer)">{{properties.SSOServer}}
-                <a class="btn btn-small" style="margin-left: 5px;" target="_blank" 
-                    href="{{properties.SSOServer}}/sso/ext/rest/status/?secret=IsSsoUp" >Go to SSO status page</a>
-            </dd>
+            <div id="statusDiv">
+                <div ng-init="init()" ng-controller="StatusModuleCtrl">
+                    <dl class="dl-horizontal">
+                        <dt>url</dt>
+                        <dd>{{server.url}}</dd>
+                    </dl>
+                    <dl class="dl-horizontal">
+                        <dt>Version</dt>
+                        <dd>{{properties.version}}</dd>
+                    </dl>
+                    <dl class="dl-horizontal">
+                        <dt>Buildnumber</dt>
+                        <dd>{{properties.build}}</dd>
+                    </dl>
+                    <dl class="dl-horizontal">
+                        <dt>Environment</dt>
+                        <dd>{{properties.env}}</dd>
+                    </dl>
+                    <dl class="dl-horizontal">
+                        <dt>SSO Server</dt>
+                        <dd ng-show="isSsoPropertyAvailable(properties.SSOServer)">{{properties.SSOServer}}
+                            <a class="btn btn-small" style="margin-left: 5px;" target="_blank" 
+                                href="{{properties.SSOServer}}/sso/ext/rest/status/?secret=IsSsoUp" >Go to SSO status page</a>
+                        </dd>
 
-            <dd ng-hide="isSsoPropertyAvailable(properties.SSOServer)">Not available</dd>
-        </dl>
-        <dl class="dl-horizontal">
-            <dt>SSO Appid</dt>
-            <dd ng-show="isSsoPropertyAvailable(properties.SSOAppid)">{{properties.SSOAppid}}</dd>
-            <dd ng-hide="isSsoPropertyAvailable(properties.SSOAppid)">Not available</dd>
-        </dl>
+                        <dd ng-hide="isSsoPropertyAvailable(properties.SSOServer)">Not available</dd>
+                    </dl>
+                    <dl class="dl-horizontal">
+                        <dt>SSO Appid</dt>
+                        <dd ng-show="isSsoPropertyAvailable(properties.SSOAppid)">{{properties.SSOAppid}}</dd>
+                        <dd ng-hide="isSsoPropertyAvailable(properties.SSOAppid)">Not available</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        
+
+
     </div>
-    
 </div>
+
+
 
 </body>
 </html>

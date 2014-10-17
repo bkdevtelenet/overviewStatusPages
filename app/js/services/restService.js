@@ -13,11 +13,11 @@ angular.module('statusModule')
         return {
             get: function(url) {
                 delete $http.defaults.headers.common['X-Requested-With'];
-                return $http.get(originUrl + url);
+                return $http.get(url);
             },
             post: function(url, content) {
                 delete $http.defaults.headers.common['X-Requested-With'];
-                return $http.post(originUrl + url, content);
+                return $http.post(url, content);
             }
         }
     }]);

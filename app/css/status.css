@@ -39,3 +39,7 @@ table.table td,table.table th {
 table.table td.method, table.table th.method {
     text-align: left;
 }
+
+dd{
+    word-wrap:break-word
+}
