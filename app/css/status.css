@@ -43,3 +43,16 @@ table.table td.method, table.table th.method {
 dd{
     word-wrap:break-word
 }
+
+/*overview status pages*/
+.server{
+    border-left-style: dotted;
+    border-bottom-style: dotted;
+}
+
+.dl-horizontal dt{
+    width: 100px;
+}
+.dl-horizontal dd{
+    margin-left: 120px;
+}

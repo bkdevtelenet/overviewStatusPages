@@ -6,13 +6,6 @@
     <meta name="robots" content="noindex,nofollow" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <style>
-        body {
-            padding-top: 60px;
-            /* 60px to make the container go all the way to the bottom of the topbar */
-        }
-    </style>
-
     <!--  You must include bootstrap
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     -->
@@ -30,6 +23,7 @@
     <script type="text/javascript" src="js/lib/angular-ui/ui-bootstrap-tpls-0.3.0.min.js"></script>
     <script type="text/javascript" src="js/lib/countdown.min.js"></script>
 
+    <script type="text/javascript" src="js/serverList.js"></script>
     <script type="text/javascript" src="js/angular-status.js"></script>
 
 
@@ -71,13 +65,12 @@
 </head>
 <body >
 <div ng-controller="StatusListCtrl" >
-    <div ng-repeat="app in applications" class="row">
+    <div ng-repeat="app in applications" >
         
-        <h3>{{app.name}}</h3>
-        <div ng-repeat="server in app.servers" class="span5">
-
-            <div id="statusDiv">
-                <div ng-init="init()" ng-controller="StatusModuleCtrl">
+        <h3 style="background-color: rgba(226, 200, 200, 0.81)">{{app.name}}</h3>
+        <div class="row">
+            <div ng-repeat="server in app.servers" class="span5 server">
+                <div ng-init="init()" ng-controller="StatusModuleCtrl" >
                     <dl class="dl-horizontal">
                         <dt>url</dt>
                         <dd>{{server.url}}</dd>
