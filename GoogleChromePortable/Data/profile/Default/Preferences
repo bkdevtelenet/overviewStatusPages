@@ -12,14 +12,14 @@
       },
       "pepper_flash_settings_enabled": true,
       "window_placement": {
-         "bottom": 785,
-         "left": 591,
-         "maximized": true,
-         "right": 1535,
-         "top": 49,
-         "work_area_bottom": 912,
+         "bottom": 985,
+         "left": 679,
+         "maximized": false,
+         "right": 1623,
+         "top": 249,
+         "work_area_bottom": 1040,
          "work_area_left": 0,
-         "work_area_right": 1536,
+         "work_area_right": 1920,
          "work_area_top": 0
       }
    },
@@ -31,8 +31,8 @@
       "suggest_url": "{google:baseSuggestURL}search?client=chrome&hl={language}&q={searchTerms}"
    },
    "dns_prefetching": {
-      "host_referral_list": [ 2, [ "http://a.disquscdn.com/", [ "http://a.disquscdn.com/", 2.850489033518 ] ], [ "http://ad.doubleclick.net/", [ "http://googleads4.g.doubleclick.net/", 2.2086570657060003, "http://pagead2.googlesyndication.com/", 2.529573049612, "http://s0.2mdn.net/", 2.2086570657060003 ] ], [ "http://bytes.com/", [ "http://bytes.com/", 7.985144776013998, "http://clients1.google.com/", 2.2086570657060003, "http://googleads.g.doubleclick.net/", 2.850489033518, "http://pagead2.googlesyndication.com/", 3.1714050174239996, "http://www.google-analytics.com/", 2.529573049612, "http://www.google.com/", 5.096900920859999, "http://www.gstatic.com/", 2.2086570657060003, "https://www.googleapis.com/", 2.2086570657060003 ] ], [ "http://c632769.r69.cf2.rackcdn.com/", [ "http://c632769.r69.cf2.rackcdn.com/", 3.8132369852359993 ] ], [ "http://cdn.onextrapixel.com/", [ "http://www.onextrapixel.com/", 2.2086570657060003 ] ], [ "http://cdn.sstatic.net/", [ "http://cdn.sstatic.net/", 12.798884534603996 ] ], [ "http://cdn.turn.com/", [ "http://cm.g.doubleclick.net/", 2.2086570657060003 ] ], [ "http://cm.g.doubleclick.net/", [ "http://cm.g.doubleclick.net/", 1.294507271768163, "http://d.xp1.ru4.com/", 0.41908684736306007, "http://google-cm.p.veruta.com/", 0.12048579226949034, "http://i.ctnsnet.com/", 1.45771366336596, "http://i.w55c.net/", 1.45771366336596, "http://pix04.revsci.net/", 0.33749027998758563, "http://pixel.everesttech.net/", 1.45771366336596, "http://pixel.sitescout.com/", 2.2086570657060003, "http://sync.mathtag.com/", 0.13799227490693766, "http://um.rta.webtrekk.com/", 0.41908684736306007 ] ], [ "http://disqus.com/", [ "http://a.disquscdn.com/", 4.4550689530479985, "http://disqus.com/", 2.529573049612, "http://juggler.services.disqus.com/", 2.2086570657060003, "http://referrer.disqus.com/", 2.529573049612, "http://tempest.disquscdn.com/", 2.2086570657060003, "http://tempest.services.disqus.com/", 2.2086570657060003, "http://thumbs.disquscdn.com/", 2.2086570657060003, "http://www.google-analytics.com/", 2.529573049612 ] ], [ "http://fonts.googleapis.com/", [ "http://fonts.gstatic.com/", 4.134152969141999 ] ], [ "http://googleads.g.doubleclick.net/", [ "http://csi.gstatic.com/", 1.4427277598090258, "http://googleads.g.doubleclick.net/", 0.08375482172861022, "http://hal9000.redintelligence.net/", 0.540872768818992, "http://n32.hal9000.redintelligence.net/", 0.41908684736306007, "http://pagead2.googlesyndication.com/", 3.229986561522923, "http://www.gstatic.com/", 0.74000283126906, "https://action.metaffiliation.com/", 0.41908684736306007 ] ], [ "http://html-color-codes.info/", [ "http://c632769.r69.cf2.rackcdn.com/", 5.096900920859999, "http://googleads.g.doubleclick.net/", 3.1714050174239996, "http://pagead2.googlesyndication.com/", 3.1714050174239996, "http://www.google-analytics.com/", 2.2086570657060003, "http://www.gstatic.com/", 2.2086570657060003, "https://accounts.google.com/", 2.2086570657060003, "https://apis.google.com/", 3.1714050174239996 ] ], [ "http://n32.hal9000.redintelligence.net/", [ "http://action.metaffiliation.com/", 2.2086570657060003, "http://img.metaffiliation.com/", 2.2086570657060003, "https://action.metaffiliation.com/", 2.2086570657060003, "https://cdn.contentspread.net/", 2.2086570657060003, "https://img.metaffiliation.com/", 2.2086570657060003, "https://impbe.tradedoubler.com/", 2.2086570657060003, "https://shst.tradedoubler.com/", 2.2086570657060003 ] ], [ "http://snook.ca/", [ "http://adn.fusionads.net/", 2.529573049612, "http://ajax.googleapis.com/", 2.2086570657060003, "http://cdn.buysellads.com/", 2.2086570657060003, "http://farm7.staticflickr.com/", 2.2086570657060003, "http://gaug.es/", 2.529573049612, "http://snook.ca/", 7.343312808201998, "http://srv.buysellads.com/", 2.2086570657060003, "http://www.google-analytics.com/", 2.529573049612, "https://launchbit.com/", 2.2086570657060003, "https://www.launchbit.com/", 2.529573049612 ] ], [ "http://stackoverflow.com/", [ "http://b.scorecardresearch.com/", 0.9620910178215336, "http://careers.stackoverflow.com/", 1.1018820204109874, "http://cdn-careers.sstatic.net/", 1.3814640255898942, "http://cdn.sstatic.net/", 4.596657085147327, "http://engine.adzerk.net/", 2.9191650540738836, "http://i.stack.imgur.com/", 1.241673023000441, "http://stackoverflow.com/", 0.9620910178215336, "http://static.adzerk.net/", 2.9191650540738836, "http://www.google-analytics.com/", 1.1018820204109874, "https://www.gravatar.com/", 4.037493074789513 ] ], [ "http://static.adzerk.net/", [ "https://adzerk-www.s3.amazonaws.com/", 2.850489033518 ] ], [ "http://www.google.com/", [ "http://www.google.com/", 5.417816904765999 ] ], [ "http://www.onextrapixel.com/", [ "http://cdn.buysellads.com/", 2.2086570657060003, "http://cdn.onextrapixel.com/", 8.947892727731997, "http://googleads.g.doubleclick.net/", 3.1714050174239996, "http://pagead2.googlesyndication.com/", 3.4923210013299997, "http://s3.buysellads.com/", 5.738732888671998, "http://stats.buysellads.com/", 2.850489033518, "http://tru.am/", 2.2086570657060003, "http://www.google-analytics.com/", 2.529573049612, "http://www.gstatic.com/", 2.529573049612, "https://cdn.buysellads.com/", 2.2086570657060003 ] ], [ "http://www.w3schools.com/", [ "http://cm.g.doubleclick.net/", 2.850489033518, "http://csi.gstatic.com/", 2.850489033518, "http://fonts.googleapis.com/", 2.2086570657060003, "http://pagead2.googlesyndication.com/", 4.775984936953999, "http://t1.gstatic.com/", 2.2086570657060003, "http://www.google-analytics.com/", 2.529573049612, "http://www.google.com/", 19.538120196629993, "http://www.w3schools.com/", 24.03094397131399, "https://translate.googleapis.com/", 3.4923210013299997, "https://www.google.com/", 2.529573049612 ] ], [ "https://accounts.google.com/", [ "https://apis.google.com/", 2.2086570657060003, "https://oauth.googleusercontent.com/", 2.2086570657060003, "https://ssl.gstatic.com/", 2.2086570657060003 ] ], [ "https://apis.google.com/", [ "https://apis.google.com/", 2.529573049612, "https://fonts.gstatic.com/", 2.2086570657060003 ] ], [ "https://cdn.buysellads.com/", [ "https://static.servedby-buysellads.com/", 2.529573049612 ] ], [ "https://code.google.com/", [ "https://apis.google.com/", 2.529573049612, "https://code-opensocial.googleusercontent.com/", 2.850489033518, "https://code.google.com/", 2.2086570657060003, "https://ssl.google-analytics.com/", 2.850489033518, "https://ssl.gstatic.com/", 3.1714050174239996, "https://www.paypal.com/", 2.2086570657060003 ] ], [ "https://docs.angularjs.org/", [ "https://ajax.googleapis.com/", 4.016453634110526, "https://docs.angularjs.org/", 12.122720786059622, "https://ssl.google-analytics.com/", 2.4575561048895462 ] ], [ "https://plus.google.com/", [ "https://apis.google.com/", 2.025335319191497, "https://ssl.gstatic.com/", 2.025335319191497 ] ], [ "https://ssl.gstatic.com/", [ "https://ssl.gstatic.com/", 2.2086570657060003 ] ], [ "https://www.google.com/", [ "https://apis.google.com/", 0.4240014676402719, "https://ssl.gstatic.com/", 0.4240014676402719, "https://www.google.com/", 3.4835298352610593, "https://www.gstatic.com/", 0.4240014676402719 ] ] ],
-      "startup_list": [ 1, "http://best-offer-tool-advisor-next.apps.tln-dev.cegeka.be/", "http://cdnjs.cloudflare.com/", "http://mijn.int.telenet.be/", "http://mijn.sup.telenet.be/", "http://mijn.trg.telenet.be/", "http://mijn.uat.telenet.be/", "http://netdna.bootstrapcdn.com/", "https://clients2.google.com/", "https://www.google.com/", "https://www.googleapis.com/" ]
+      "host_referral_list": [ 2, [ "http://a.disquscdn.com/", [ "http://a.disquscdn.com/", 2.5394767300920633 ] ], [ "http://ad.doubleclick.net/", [ "http://googleads4.g.doubleclick.net/", 1.967674022654115, "http://pagead2.googlesyndication.com/", 2.2535753763730892, "http://s0.2mdn.net/", 1.967674022654115 ] ], [ "http://bytes.com/", [ "http://bytes.com/", 7.113898389595645, "http://clients1.google.com/", 1.967674022654115, "http://googleads.g.doubleclick.net/", 2.5394767300920633, "http://pagead2.googlesyndication.com/", 2.8253780838110374, "http://www.google-analytics.com/", 2.2535753763730892, "http://www.google.com/", 4.54078620612488, "http://www.gstatic.com/", 1.967674022654115, "https://www.googleapis.com/", 1.967674022654115 ] ], [ "http://c632769.r69.cf2.rackcdn.com/", [ "http://c632769.r69.cf2.rackcdn.com/", 3.3971807912489846 ] ], [ "http://cdn.onextrapixel.com/", [ "http://www.onextrapixel.com/", 1.967674022654115 ] ], [ "http://cdn.sstatic.net/", [ "http://cdn.sstatic.net/", 11.402418695380256 ] ], [ "http://cdn.turn.com/", [ "http://cm.g.doubleclick.net/", 1.967674022654115 ] ], [ "http://cm.g.doubleclick.net/", [ "http://cm.g.doubleclick.net/", 1.1532656519407911, "http://d.xp1.ru4.com/", 0.3733609511391986, "http://google-cm.p.veruta.com/", 0.10733978000871507, "http://i.ctnsnet.com/", 1.298664854951716, "http://i.w55c.net/", 1.298664854951716, "http://pix04.revsci.net/", 0.3006672548404726, "http://pixel.everesttech.net/", 1.298664854951716, "http://pixel.sitescout.com/", 1.967674022654115, "http://sync.mathtag.com/", 0.12293615830057966, "http://um.rta.webtrekk.com/", 0.3733609511391986 ] ], [ "http://disqus.com/", [ "http://a.disquscdn.com/", 3.9689834986869323, "http://disqus.com/", 2.2535753763730892, "http://juggler.services.disqus.com/", 1.967674022654115, "http://referrer.disqus.com/", 2.2535753763730892, "http://tempest.disquscdn.com/", 1.967674022654115, "http://tempest.services.disqus.com/", 1.967674022654115, "http://thumbs.disquscdn.com/", 1.967674022654115, "http://www.google-analytics.com/", 2.2535753763730892 ] ], [ "http://fonts.googleapis.com/", [ "http://fonts.gstatic.com/", 3.6830821449679587 ] ], [ "http://googleads.g.doubleclick.net/", [ "http://csi.gstatic.com/", 1.2853140393847218, "http://googleads.g.doubleclick.net/", 0.07461646696823598, "http://hal9000.redintelligence.net/", 0.4818590053164016, "http://n32.hal9000.redintelligence.net/", 0.3733609511391986, "http://pagead2.googlesyndication.com/", 2.877567889245396, "http://www.gstatic.com/", 0.6592623048581725, "https://action.metaffiliation.com/", 0.3733609511391986 ] ], [ "http://html-color-codes.info/", [ "http://c632769.r69.cf2.rackcdn.com/", 4.54078620612488, "http://googleads.g.doubleclick.net/", 2.8253780838110374, "http://pagead2.googlesyndication.com/", 2.8253780838110374, "http://www.google-analytics.com/", 1.967674022654115, "http://www.gstatic.com/", 1.967674022654115, "https://accounts.google.com/", 1.967674022654115, "https://apis.google.com/", 2.8253780838110374 ] ], [ "http://n32.hal9000.redintelligence.net/", [ "http://action.metaffiliation.com/", 1.967674022654115, "http://img.metaffiliation.com/", 1.967674022654115, "https://action.metaffiliation.com/", 1.967674022654115, "https://cdn.contentspread.net/", 1.967674022654115, "https://img.metaffiliation.com/", 1.967674022654115, "https://impbe.tradedoubler.com/", 1.967674022654115, "https://shst.tradedoubler.com/", 1.967674022654115 ] ], [ "http://snook.ca/", [ "http://adn.fusionads.net/", 2.2535753763730892, "http://ajax.googleapis.com/", 1.967674022654115, "http://cdn.buysellads.com/", 1.967674022654115, "http://farm7.staticflickr.com/", 1.967674022654115, "http://gaug.es/", 2.2535753763730892, "http://snook.ca/", 6.542095682157697, "http://srv.buysellads.com/", 1.967674022654115, "http://www.google-analytics.com/", 2.2535753763730892, "https://launchbit.com/", 1.967674022654115, "https://www.launchbit.com/", 2.2535753763730892 ] ], [ "http://stackoverflow.com/", [ "http://b.scorecardresearch.com/", 0.8571188042681327, "http://careers.stackoverflow.com/", 0.9816574339481179, "http://cdn-careers.sstatic.net/", 1.2307346933080878, "http://cdn.sstatic.net/", 4.095123175947744, "http://engine.adzerk.net/", 2.6006596197879235, "http://i.stack.imgur.com/", 1.106196063628103, "http://stackoverflow.com/", 0.8571188042681327, "http://static.adzerk.net/", 2.6006596197879235, "http://www.google-analytics.com/", 0.9816574339481179, "https://www.gravatar.com/", 3.5969686572278046 ] ], [ "http://static.adzerk.net/", [ "https://adzerk-www.s3.amazonaws.com/", 2.5394767300920633 ] ], [ "http://www.google.com/", [ "http://www.google.com/", 4.826687559843855 ] ], [ "http://www.onextrapixel.com/", [ "http://cdn.buysellads.com/", 1.967674022654115, "http://cdn.onextrapixel.com/", 7.971602450752568, "http://googleads.g.doubleclick.net/", 2.8253780838110374, "http://pagead2.googlesyndication.com/", 3.111279437530011, "http://s3.buysellads.com/", 5.112588913562827, "http://stats.buysellads.com/", 2.5394767300920633, "http://tru.am/", 1.967674022654115, "http://www.google-analytics.com/", 2.2535753763730892, "http://www.gstatic.com/", 2.2535753763730892, "https://cdn.buysellads.com/", 1.967674022654115 ] ], [ "http://www.w3schools.com/", [ "http://cm.g.doubleclick.net/", 2.5394767300920633, "http://csi.gstatic.com/", 2.5394767300920633, "http://fonts.googleapis.com/", 1.967674022654115, "http://pagead2.googlesyndication.com/", 4.254884852405906, "http://t1.gstatic.com/", 1.967674022654115, "http://www.google-analytics.com/", 2.2535753763730892, "http://www.google.com/", 17.406347123478703, "http://www.w3schools.com/", 21.408966075544342, "https://translate.googleapis.com/", 3.111279437530011, "https://www.google.com/", 2.2535753763730892 ] ], [ "https://accounts.google.com/", [ "https://apis.google.com/", 1.967674022654115, "https://oauth.googleusercontent.com/", 1.967674022654115, "https://ssl.gstatic.com/", 1.967674022654115 ] ], [ "https://apis.google.com/", [ "https://apis.google.com/", 2.665428514025998, "https://fonts.gstatic.com/", 1.2382099466903813 ] ], [ "https://cdn.buysellads.com/", [ "https://static.servedby-buysellads.com/", 2.2535753763730892 ] ], [ "https://chrome.google.com/", [ "https://chrome.google.com/", 2.850489033518, "https://clients2.google.com/", 2.2086570657060003, "https://clients2.googleusercontent.com/", 2.2086570657060003, "https://lh3.googleusercontent.com/", 23.280000568973954, "https://lh4.googleusercontent.com/", 25.85374675990007, "https://lh5.googleusercontent.com/", 20.192788803798233, "https://lh6.googleusercontent.com/", 29.78817672258763, "https://plus.google.com/", 8.306060759919998, "https://ssl.google-analytics.com/", 10.520381048871398, "https://www.google.com/", 3.3767912471238395 ] ], [ "https://code.google.com/", [ "https://apis.google.com/", 2.2535753763730892, "https://code-opensocial.googleusercontent.com/", 2.5394767300920633, "https://code.google.com/", 1.967674022654115, "https://ssl.google-analytics.com/", 2.5394767300920633, "https://ssl.gstatic.com/", 2.8253780838110374, "https://www.paypal.com/", 1.967674022654115 ] ], [ "https://docs.angularjs.org/", [ "https://ajax.googleapis.com/", 3.578224796300721, "https://docs.angularjs.org/", 10.80003009294418, "https://ssl.google-analytics.com/", 2.1894160854077476 ] ], [ "https://fonts.googleapis.com/", [ "https://fonts.gstatic.com/", 3.1714050174239996 ] ], [ "https://plus.google.com/", [ "https://apis.google.com/", 1.8043542189575343, "https://ssl.gstatic.com/", 1.8043542189575343 ] ], [ "https://s.ytimg.com/", [ "https://s.ytimg.com/", 2.2086570657060003 ] ], [ "https://ssl.gstatic.com/", [ "https://ssl.gstatic.com/", 1.967674022654115 ] ], [ "https://www.google.com/", [ "https://apis.google.com/", 0.8737797945410617, "https://ssl.gstatic.com/", 0.8737797945410617, "https://www.google.com/", 7.21225351147006, "https://www.gstatic.com/", 0.8737797945410617 ] ], [ "https://www.youtube.com/", [ "https://i.ytimg.com/", 2.529573049612, "https://s.ytimg.com/", 2.850489033518, "https://www.google.com/", 2.2086570657060003 ] ] ],
+      "startup_list": [ 1, "http://apps.servicesint.telenet.be/", "http://apps.servicessup.telenet.be/", "http://best-offer-tool-advisor-next.apps.tln-dev.cegeka.be/", "http://best-offer-tool-advisor.apps.tln-dev.cegeka.be/", "http://cdnjs.cloudflare.com/", "http://netdna.bootstrapcdn.com/", "https://apis.google.com/", "https://ssl.gstatic.com/", "https://www.google.com/", "https://www.gstatic.com/" ]
    },
    "download": {
       "directory_upgrade": true,
@@ -44,20 +44,23 @@
          "initialized": true
       },
       "autoupdate": {
-         "last_check": "13058029757483383",
-         "next_check": "13058047561767107"
+         "last_check": "13059120420058389",
+         "next_check": "13059251258775075"
       },
       "chrome_url_overrides": {
          "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
       },
+      "commands": {
+
+      },
       "install_signature": {
-         "expire_date": "2015-01-09",
-         "ids": [ "bepbmhgboaologfdajaanbcjmnhjmhfn" ],
+         "expire_date": "2015-01-21",
+         "ids": [ "bepbmhgboaologfdajaanbcjmnhjmhfn", "jlgdloilieclkegafohackmhffbmdpko" ],
          "invalid_ids": [  ],
-         "salt": "cSvmPMjcd20j3OR+gih59dUyOJOGoqH6t9mWrjFg1+s=",
-         "signature": "eHOd8dSa9X+Up/3wq476OuiEntcXC8+EpBIzkJyqPsLADIot6kKIYTOjhy0iJaiqwXMdB7MniaPbdjNa+StcRdXtwYe8WtY4biR0jgO8WVFlQ9AmqwrPXUKkHIuL6aFxF2H682IC6tFEwcVBrmhP6eFh65SERINzGzcnO2C+04czWi1Umm+r2N66maDUm25f6Q23xU0B5mzZprukYMqWJIcbYV8W1alwO4FlXdeFEXELHXWorquaiHy09k1Jy9ULxmvz01JWsLJG+U8HfQOHv/01RB15nz6Nw7sau6w6WHBL0nCx1OiFBRmZe86yAkP6iWvskWA7ZkBAgrKgle9iBA==",
+         "salt": "IEobfUDyiTd09eCXPuvBfG9Ir9UoLVL04bOFD1gqRtU=",
+         "signature": "TUYRvc4Rc3+u8+7recJ9xmSJ5DIsFgwoch5cT3R+rbL1Fb7GEk/TG//Y3e38lm1W8p5uKtYr7fxiBe9KZqJV/35rl83KWbOoC15qkL0Nb/8akRE0H5ozFABYAM65CnGi5+SL2SFpCRFT1eTK+0fJunG0C2/u3JnFbbwnQbZI/e3UY8fu7c8k9XNiy/9A3V/o2d3nV9zt37IxKTY2EHP/7FhUiUZ6Ks8v68GgKKo6ZExxoJJs0YiCyUsmdL7R5rbuiUx8bUn0hJbgWbkuSKdXc3LfEnEiCr1spZkXAYvC+IXjJxJZKuIXSSHpHI2MUaSg6qbH0qiaUn7uO9EOMQjjMg==",
          "signature_format_version": 2,
-         "timestamp": "13058037312773433"
+         "timestamp": "13059069906930797"
       },
       "last_chrome_version": "38.0.2125.101",
       "settings": {
@@ -132,7 +135,7 @@
             },
             "initial_keybindings_set": true,
             "install_time": "13057862288932165",
-            "lastpingday": "13058002774327181",
+            "lastpingday": "13059039561276008",
             "location": 10,
             "manifest": {
                "background": {
@@ -425,6 +428,81 @@
 
             },
             "running": false,
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "jlgdloilieclkegafohackmhffbmdpko": {
+            "active_permissions": {
+               "api": [  ],
+               "manifest_permissions": [  ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 9,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [  ],
+               "manifest_permissions": [  ]
+            },
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "install_time": "13059069837040518",
+            "lastpingday": "13059039560297861",
+            "location": 1,
+            "manifest": {
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCg7gEhRkm0s2x8H0YeeZlIGE7iA7IfH4oCQ61BHh08r6ZO8MwGmGaU+dpUdlvFFSI5Fqck7EUF6Btn4jrPsw1BUzrFVI/t403GHdieUDv3YCTOtVIcbcJvB9ZCCfpDFntKsVPS1c8h/PIpJX082PKoQb1sJEeFrqWK0p3grMBYlQIDAQAB",
+               "name": "Yulia Brodskaya",
+               "theme": {
+                  "colors": {
+                     "bookmark_text": [ 0, 0, 0 ],
+                     "frame": [ 255, 255, 255 ],
+                     "ntp_background": [ 255, 255, 255 ],
+                     "ntp_header": [ 11, 41, 12, 1 ],
+                     "ntp_link": [ 0, 0, 204 ],
+                     "ntp_section": [ 173, 230, 97, 1 ],
+                     "ntp_section_link": [ 0, 0, 0 ],
+                     "ntp_section_text": [ 0, 0, 0 ],
+                     "ntp_text": [ 0, 0, 0 ],
+                     "tab_background_text": [ 255, 255, 255 ],
+                     "tab_text": [ 0, 0, 0 ],
+                     "toolbar": [ 205, 240, 159 ]
+                  },
+                  "images": {
+                     "theme_button_background": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYy7IEDA",
+                     "theme_frame": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYksIEDA",
+                     "theme_ntp_attribution": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYzbIEDA",
+                     "theme_ntp_background": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYxbIEDA",
+                     "theme_tab_background": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYyLIEDA",
+                     "theme_toolbar": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYxrIEDA",
+                     "theme_window_control_background": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYlcIEDA"
+                  },
+                  "properties": {
+                     "ntp_background_alignment": "top left",
+                     "ntp_background_repeat": "repeat-x"
+                  },
+                  "tints": {
+                     "buttons": [ 0.392, 0.66, 0.25 ]
+                  }
+               },
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "2"
+            },
+            "path": "jlgdloilieclkegafohackmhffbmdpko\\2_0",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
             "state": 1,
             "was_installed_by_default": false,
             "was_installed_by_oem": false
@@ -814,7 +892,7 @@
             },
             "initial_keybindings_set": true,
             "install_time": "13057862253677743",
-            "lastpingday": "13058002774327181",
+            "lastpingday": "13059039561276008",
             "location": 10,
             "manifest": {
                "app": {
@@ -910,6 +988,10 @@
             "was_installed_by_default": false,
             "was_installed_by_oem": false
          }
+      },
+      "theme": {
+         "id": "jlgdloilieclkegafohackmhffbmdpko",
+         "pack": "C:\\Users\\bkdevtelenet\\Documents\\GitHub\\overviewStatusPages\\GoogleChromePortable\\Data\\profile\\Default\\Extensions\\jlgdloilieclkegafohackmhffbmdpko\\2_0\\Cached Theme.pak"
       }
    },
    "hotword": {
@@ -966,6 +1048,11 @@
                   "probability": 0.01,
                   "protocol_str": "quic"
                },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
                "supports_spdy": true
             },
             "bid.g.doubleclick.net:80": {
@@ -982,6 +1069,14 @@
                   "protocol_str": "quic"
                }
             },
+            "chrome.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "probability": 0.01,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": true
+            },
             "clients1.google.com:443": {
                "alternate_protocol": {
                   "port": 443,
@@ -996,9 +1091,19 @@
                   "probability": 0.01,
                   "protocol_str": "quic"
                },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
                "supports_spdy": true
             },
             "clients2.googleusercontent.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "probability": 0.01,
+                  "protocol_str": "quic"
+               },
                "supports_spdy": true
             },
             "cm.g.doubleclick.net:443": {
@@ -1016,6 +1121,9 @@
                }
             },
             "code-opensocial.googleusercontent.com:443": {
+               "supports_spdy": true
+            },
+            "code.google.com:443": {
                "alternate_protocol": {
                   "port": 443,
                   "probability": 0.01,
@@ -1023,7 +1131,7 @@
                },
                "supports_spdy": true
             },
-            "code.google.com:443": {
+            "csi.gstatic.com:443": {
                "alternate_protocol": {
                   "port": 443,
                   "probability": 0.01,
@@ -1039,6 +1147,14 @@
                }
             },
             "errors.angularjs.org:443": {
+               "supports_spdy": true
+            },
+            "fonts.googleapis.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "probability": 0.01,
+                  "protocol_str": "quic"
+               },
                "supports_spdy": true
             },
             "fonts.googleapis.com:80": {
@@ -1085,6 +1201,14 @@
                   "protocol_str": "quic"
                }
             },
+            "i.ytimg.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "probability": 0.01,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": true
+            },
             "id.google.com:443": {
                "alternate_protocol": {
                   "port": 443,
@@ -1094,6 +1218,9 @@
                "supports_spdy": true
             },
             "img.metaffiliation.com:443": {
+               "supports_spdy": true
+            },
+            "lh6.googleusercontent.com:443": {
                "supports_spdy": true
             },
             "oauth.googleusercontent.com:443": {
@@ -1157,6 +1284,13 @@
             "pubads.g.doubleclick.net:80": {
                "alternate_protocol": {
                   "port": 80,
+                  "probability": 0.01,
+                  "protocol_str": "quic"
+               }
+            },
+            "s.ytimg.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
                   "probability": 0.01,
                   "protocol_str": "quic"
                }
@@ -1243,8 +1377,8 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 67,
-                  "6": 8
+                  "5": 32,
+                  "6": 0
                },
                "supports_spdy": true
             },
@@ -1276,6 +1410,11 @@
                   "probability": 0.01,
                   "protocol_str": "quic"
                },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
                "supports_spdy": true
             },
             "www.gstatic.com:80": {
@@ -1284,6 +1423,14 @@
                   "probability": 0.01,
                   "protocol_str": "quic"
                }
+            },
+            "www.youtube.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "probability": 0.01,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": true
             }
          },
          "version": 3
@@ -1342,55 +1489,56 @@
    "protection": {
       "macs": {
          "browser": {
-            "show_home_button": "7DBD180A9AD7F7AF815E3D074E56B5388D96393A97F80F26ACCA5401960DF840"
+            "show_home_button": "BE7D6A467931ECD3A2CF27C0DA269B03DB18FE0A9C39B4C5CBDFE35FBD479261"
          },
          "default_search_provider": {
-            "keyword": "AF71B7C7BB27F13BFABBE22FC6F95604360C5DC97BBA6588234850F478FCA0FB",
-            "name": "6A065CC44F2EE82E1CBD894D03C3EA4D3B2FC736C5D44E1E7D50E92707A9FB49",
-            "search_url": "555D524C506F2AC24176AF47DDD23E52698599E06949EF5690E95AF3C3AF6DB8"
+            "keyword": "15EF9621B006DFE12482FEE57C83F9954543B6CDBE6D00583E4B7AE6F2024D80",
+            "name": "97041C96849235A9B1A4ECFBC33BBDDA997531EC3FF91E1DBD312EF06F8E8B57",
+            "search_url": "331980F7C22DBEC9FAE379FA4FF0D783A4AD9522292558D00750581C0C6B98BE"
          },
          "default_search_provider_data": {
-            "template_url_data": "800034223D3C28751DF6159E1EBBA6C8857A43045CFED4AA574C65D8DBAE6A8D"
+            "template_url_data": "44BDE6B2D5906D6067B8108717022CFDCF51EF5FF5934CA0E036D781FA4A1A29"
          },
          "extensions": {
             "settings": {
-               "ahfgeienlihckogmohjhadlkjgocpleb": "F8D71726D5D16E0D877F498CF1197962288C858B83A4CFBD8A6F98CFB517230D",
-               "bepbmhgboaologfdajaanbcjmnhjmhfn": "077515B1B1D8E0315B98506A544D6911557AFCE000258D07927449EF9509FF93",
-               "dnhpdliibojhegemfjheidglijccjfmc": "7D002D31F3CE0D9C8B97B8F04B82C47FADC1ED720D69524D949F29878A00CEFD",
-               "eemcgdkfndhakfknompkggombfjjjeno": "9830FE6275FE627596B736FB77E4D590700DC92AFAD31F9BA48FB15B63FBE3E7",
-               "ennkphjdgehloodpbhlhldgbnhmacadg": "E1973946550A405AA6B36E5DF34F11ABFBE886815763BEDB55E6C7A4CF8E9317",
-               "gfdkimpbcpahaombhbimeihdjnejgicl": "F35B6B3CF6D5190A8C1E64813C601F88B2A7C74C69D537114C625E7A9833239E",
-               "kmendfapggjehodndflmmgagdbamhnfd": "760001685A5E27959CF5B1ABD3DE5BB838BDDBFB344BB3B8968DE3D8F1541AD4",
-               "mfehgcgbbipciphmccgaenjidiccnmng": "37C7E4503B8D9831EC970D72D016BDB7D03C926E4DEA80D83BE0BC77D16D801D",
-               "mgndgikekgjfcpckkfioiadnlibdjbkf": "E8212EAF658E3F54B5832F9ECA5C694BCB7CD221E8A447623FDF8AE86C47F1BE",
-               "neajdppkdcdipfabeoofebfddakdcjhd": "74EB6C3AF6F33FE66EF9F4BE00BD33758641F8A86A86567C6F352A6D29D5A7EB",
-               "nkeimhogjdpnpccoofpliimaahmaaome": "85248E157971CB53E99C64E19E699C6562B3B61AAA658581BB2B96B2B3139E49",
-               "nmmhkkegccagdldgiimedpiccmgmieda": "AD8370AB0FB6FEDA4A6558D469E4EFB817FD5519F41CC005ABD84720CD2BBBF2",
-               "pafkbggdmjlpgkdkcbjmhmfcdpncadgh": "598ED95E5C740422B2D6F0E12F720FA86D3D0AA85091FD1F790122AB1C8DAF29"
+               "ahfgeienlihckogmohjhadlkjgocpleb": "E338AF1E457CBC6DCDCE3B2B3FB65AF47B2F27463CDDA2DCA8AE22A572068BF7",
+               "bepbmhgboaologfdajaanbcjmnhjmhfn": "114FFA0FBAE6EC61BF264E2F50E1D4E45F3D77E4936CB0E89AA74AC5BFD85706",
+               "dnhpdliibojhegemfjheidglijccjfmc": "8E83F30581EBE53D3265ADC04B1EB7524A497B6537D0CB2D485E7D8C6F1F2C8C",
+               "eemcgdkfndhakfknompkggombfjjjeno": "2705644A3A96740486BF29E655A4325C5FF224890509DE31380F681772E6E65B",
+               "ennkphjdgehloodpbhlhldgbnhmacadg": "FFC8E08DC265F8991E72027E5401220CEE01C9DC6F763595E47670DBBD07BB3F",
+               "gfdkimpbcpahaombhbimeihdjnejgicl": "ED87DA23593FC4A1C69CC5A55F1A4C42C14404007F18B8C07EB7F6E2194A9FDF",
+               "jlgdloilieclkegafohackmhffbmdpko": "D1086CF94126E5FBB65488A60F7E76000A24AA950425E42BF56B606A8566D3B8",
+               "kmendfapggjehodndflmmgagdbamhnfd": "A21F57C2E9F09950B15A9CB41367C13679EDCA84B64EAAFA746919A18D194CF1",
+               "mfehgcgbbipciphmccgaenjidiccnmng": "DFE8321553CB25A3BDCD452515FABD06C6813375C4701F665305DDD053408F33",
+               "mgndgikekgjfcpckkfioiadnlibdjbkf": "014EF65DAB2953C684DD92025CEEBE4F20D19087F44B68F66D2949A274341F05",
+               "neajdppkdcdipfabeoofebfddakdcjhd": "E1DCB310497D1E705F4281243D2D882A001035ADE728F70F6043163C466E0157",
+               "nkeimhogjdpnpccoofpliimaahmaaome": "F907CC7C6AF8F0A87674A9CCF8D852CDAAE3F4CF7824F5EF45911CC4C7BE0C3F",
+               "nmmhkkegccagdldgiimedpiccmgmieda": "107F81014C55177D0DAA9C3E51A68D5C5C6A2806B1B372718928D82AFE43F5B6",
+               "pafkbggdmjlpgkdkcbjmhmfcdpncadgh": "9AB71F66E71ED05E22DFE766F1461C94F0A537AC62FBFE2679FA0AA6A5E2DDCC"
             }
          },
          "google": {
             "services": {
-               "last_username": "E1F9B8FBB532B2489B9D8AB9FAAC728E827AAFBC44D15DB109D03F9B98017616"
+               "last_username": "78E63A72FDFE9B09CEE6C7C14FDE5F186D43AD16A8F3DB53176C335985EE3BE3"
             }
          },
-         "homepage": "33144F9580A19DD9E50505C8B62D9293AFEE95BA677B4FDF4C94E4818271E031",
-         "homepage_is_newtabpage": "F285A9C5066B89122CAF7E8134872F7CCBC3D64B7006F391F90858EE8343F08D",
-         "pinned_tabs": "92059AD8AE6C311F89D1712673E673ED1FB7783B8073B782277491E4243CE2EF",
+         "homepage": "E60BF7D12B7FDDF2ED82B79ECCD010EF6992A4CE18E866C481D62D9582581C89",
+         "homepage_is_newtabpage": "5FD4DEF1FD06500FC784F5205288A2A99296071F40D985748A1B94D18C229D57",
+         "pinned_tabs": "D6082060E20B9FE63586C539BE2E59DA839F930893F2C8BB4DAEE242BE14389A",
          "prefs": {
-            "preference_reset_time": "3120DC6B1C3B3F540F310812A5DC4B496F99EB8631D5984036C6B341A74E03EC"
+            "preference_reset_time": "50CDF0540FD0F331601648C3209263678D766212E4A219824726CFB3A00C4270"
          },
          "safebrowsing": {
-            "incident_report_sent": "84BBF6850C4552B98A950B32200EF792EEC2BD2E3884CA6B1FAAF2FF8A209FF4",
-            "incidents_sent": "26E78A8FFE4174ACD5556C569D92246F8B25974CA934D05C9DBB2677A377321F"
+            "incident_report_sent": "DD0ECC344D6773CF44A16E535C938D11A1676A77C54D51972DF84E7DDA76E197",
+            "incidents_sent": "4E7A7ECEEC4DA77A71A50EC30B1CBBC9A612F27B538BC6D15E61051AC9A97E5C"
          },
-         "search_provider_overrides": "0E05C0BF2FEBA8BF082D9C1AF9DDB56F2A5B5034ECF11FE20EAF799EA6AF51E3",
+         "search_provider_overrides": "9D41EC750AEFBDB625A80E2730D490AFF7E2056EC5950A80454B7901C441FBBE",
          "session": {
-            "restore_on_startup": "937D556124B6FAB1231585691D55E5C8181ABE8787F6E66B552B3EF813D95878",
-            "startup_urls": "4774C516728C8F1A2BBF3446856B6D2CD1733BD9373D0174A8FC1233563FC290"
+            "restore_on_startup": "1D0D61E7D4EF8CD463395F14A11BB9E3B9A3803E88C2CE4B0D9B3A564A8D0853",
+            "startup_urls": "1FBE40A4890E1AD22A2C16ADDF600A84C86DAC43BC9A16F14496C36E71AB70D9"
          },
          "sync": {
-            "remaining_rollback_tries": "11EFBF54AA8307E97B41201D75C3EBBC787D311E649327DE31E1173FDBD77C7B"
+            "remaining_rollback_tries": "BB3D43696CB7CFA400983E8EC7E69AA13CA6BD3110A971DCF53CA2829FB2CFAF"
          }
       }
    },

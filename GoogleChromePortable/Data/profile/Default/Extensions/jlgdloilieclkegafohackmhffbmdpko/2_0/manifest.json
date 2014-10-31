@@ -1,0 +1,39 @@
+{
+   "default_locale": "en",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCg7gEhRkm0s2x8H0YeeZlIGE7iA7IfH4oCQ61BHh08r6ZO8MwGmGaU+dpUdlvFFSI5Fqck7EUF6Btn4jrPsw1BUzrFVI/t403GHdieUDv3YCTOtVIcbcJvB9ZCCfpDFntKsVPS1c8h/PIpJX082PKoQb1sJEeFrqWK0p3grMBYlQIDAQAB",
+   "name": "__MSG_themeName__",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 0, 0, 0 ],
+         "frame": [ 255, 255, 255 ],
+         "ntp_background": [ 255, 255, 255 ],
+         "ntp_header": [ 11, 41, 12, 1 ],
+         "ntp_link": [ 0, 0, 204 ],
+         "ntp_section": [ 173, 230, 97, 1 ],
+         "ntp_section_link": [ 0, 0, 0 ],
+         "ntp_section_text": [ 0, 0, 0 ],
+         "ntp_text": [ 0, 0, 0 ],
+         "tab_background_text": [ 255, 255, 255 ],
+         "tab_text": [ 0, 0, 0 ],
+         "toolbar": [ 205, 240, 159 ]
+      },
+      "images": {
+         "theme_button_background": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYy7IEDA",
+         "theme_frame": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYksIEDA",
+         "theme_ntp_attribution": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYzbIEDA",
+         "theme_ntp_background": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYxbIEDA",
+         "theme_tab_background": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYyLIEDA",
+         "theme_toolbar": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYxrIEDA",
+         "theme_window_control_background": "i/agxjaHJvbWV0aGVtZXNyDAsSBEZpbGUYlcIEDA"
+      },
+      "properties": {
+         "ntp_background_alignment": "top left",
+         "ntp_background_repeat": "repeat-x"
+      },
+      "tints": {
+         "buttons": [ 0.392, 0.66, 0.25 ]
+      }
+   },
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2"
+}
