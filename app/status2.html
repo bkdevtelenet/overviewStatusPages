@@ -68,7 +68,7 @@
     <div ng-repeat="app in applications" >
         
         <h3 style="background-color: rgba(226, 200, 200, 0.81)">{{app.name}}</h3>
-        <table class="table">
+        <table class="table table-striped">
             <thead>
                 <tr>  
                     <th>url</th>  
@@ -86,7 +86,8 @@
                     <td>{{properties.build}}</td>
                     <td>{{properties.env}}</td>
                     <td>
-                        <div ng-show="isSsoPropertyAvailable(properties.SSOServer)">{{properties.SSOServer}}
+                        <div ng-show="isSsoPropertyAvailable(properties.SSOServer)">
+                        <!-- {{properties.SSOServer}} -->
                             <a class="btn btn-small" style="margin-left: 5px;" target="_blank" 
                                 href="{{properties.SSOServer}}/sso/ext/rest/status/?secret=IsSsoUp" >Go to SSO status page</a>
                         </div>
