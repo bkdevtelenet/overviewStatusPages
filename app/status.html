@@ -68,42 +68,39 @@
     <div ng-repeat="app in applications" >
         
         <h3 style="background-color: rgba(226, 200, 200, 0.81)">{{app.name}}</h3>
-        <div class="row">
-            <div ng-repeat="server in app.servers" class="span5 server">
-                <div ng-init="init()" ng-controller="StatusModuleCtrl" >
-                    <dl class="dl-horizontal">
-                        <dt>url</dt>
-                        <dd>{{server.url}}</dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                        <dt>Version</dt>
-                        <dd>{{properties.version}}</dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                        <dt>Buildnumber</dt>
-                        <dd>{{properties.build}}</dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                        <dt>Environment</dt>
-                        <dd>{{properties.env}}</dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                        <dt>SSO Server</dt>
-                        <dd ng-show="isSsoPropertyAvailable(properties.SSOServer)">{{properties.SSOServer}}
+        <table class="table table-striped">
+            <thead>
+                <tr>  
+                    <th>url</th>  
+                    <th>Version</th>  
+                    <th>Buildnumber</th>  
+                    <th>Environment</th>  
+                    <th>SSO Server</th>  
+                    <th>SSO Appid</th>  
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="server in app.servers" class="" ng-init="init()" ng-controller="StatusModuleCtrl" >
+                    <td>{{server.url}}</td>
+                    <td> <a href="{{server.url}}{{app.secret}}" target="_blank">link</a></td>
+                    <td>{{properties.version}}</td>
+                    <td>{{properties.build}}</td>
+                    <td>{{properties.env}}</td>
+                    <td>
+                        <div ng-show="isSsoPropertyAvailable(properties.SSOServer)">
+                        <!-- {{properties.SSOServer}} -->
                             <a class="btn btn-small" style="margin-left: 5px;" target="_blank" 
                                 href="{{properties.SSOServer}}/sso/ext/rest/status/?secret=IsSsoUp" >Go to SSO status page</a>
-                        </dd>
-
-                        <dd ng-hide="isSsoPropertyAvailable(properties.SSOServer)">Not available</dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                        <dt>SSO Appid</dt>
-                        <dd ng-show="isSsoPropertyAvailable(properties.SSOAppid)">{{properties.SSOAppid}}</dd>
-                        <dd ng-hide="isSsoPropertyAvailable(properties.SSOAppid)">Not available</dd>
-                    </dl>
-                </div>
-            </div>
-        </div>
+                        </div>
+                        <div ng-hide="isSsoPropertyAvailable(properties.SSOServer)">Not available</div>
+                    </td>
+                    <td>
+                        <div ng-show="isSsoPropertyAvailable(properties.SSOAppid)">{{properties.SSOAppid}}</div>
+                        <div ng-hide="isSsoPropertyAvailable(properties.SSOAppid)">Not available</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         
 
 

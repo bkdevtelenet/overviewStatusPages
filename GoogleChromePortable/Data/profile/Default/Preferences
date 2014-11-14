@@ -14,7 +14,7 @@
       "window_placement": {
          "bottom": 812,
          "left": 782,
-         "maximized": false,
+         "maximized": true,
          "right": 1726,
          "top": 76,
          "work_area_bottom": 1040,
@@ -30,6 +30,10 @@
       "prepopulate_id": "1",
       "suggest_url": "{google:baseSuggestURL}search?client=chrome&hl={language}&q={searchTerms}"
    },
+   "dns_prefetching": {
+      "host_referral_list": [ 2, [ "http://hln.be/", [ "http://www.hln.be/", 2.2086570657060003 ] ], [ "http://ims.hln.be/", [ "http://hln.ipaperassets.persgroep.net/", 2.2086570657060003 ] ], [ "http://static0.hln.be/", [ "http://pictures.immoweb.be/", 3.1714050174239996, "http://static.immoweb.be/", 12.157052566791997, "http://static0.hln.be/", 3.1714050174239996 ] ], [ "http://static1.hln.be/", [ "http://static1.hln.be/", 6.701480840389999, "http://static2.hln.be/", 2.529573049612 ] ], [ "http://www.hln.be/", [ "http://beacon-2.newrelic.com/", 2.2086570657060003, "http://pagead2.googlesyndication.com/", 3.4923210013299997, "http://ping.chartbeat.net/", 2.2086570657060003, "http://static.tijd.be/", 2.850489033518, "http://static0.hln.be/", 16.970792325381993, "http://static1.hln.be/", 13.761632486321995, "http://static2.hln.be/", 15.366212405851995, "http://static3.hln.be/", 15.045296421945993, "http://www.gstatic.com/", 2.2086570657060003, "http://www.hln.be/", 8.306060759919998 ] ], [ "https://apps.servicessup.telenet.be/", [ "https://apps.servicessup.telenet.be/", 12.182986199999997, "https://cdnjs.cloudflare.com/", 2.6037003999999997 ] ], [ "https://caps.hln.be/", [ "https://caps.hln.be/", 4.4550689530479985, "https://connect.facebook.net/", 2.2086570657060003, "https://s-static.ak.facebook.com/", 2.529573049612, "https://www.facebook.com/", 2.529573049612 ] ], [ "https://cdnjs.cloudflare.com/", [ "https://cdnjs.cloudflare.com/", 2.2733802 ] ], [ "https://www.facebook.com/", [ "https://fbexternal-a.akamaihd.net/", 3.757911069610605, "https://fbstatic-a.akamaihd.net/", 2.2044209747184405 ] ], [ "https://www.google.com/", [ "https://apis.google.com/", 2.2086570657060003, "https://ssl.gstatic.com/", 2.2086570657060003, "https://www.google.com/", 4.23684608399192, "https://www.gstatic.com/", 2.2086570657060003 ] ] ],
+      "startup_list": [ 1, "http://apps.servicesint.telenet.be/", "http://apps.servicessup.telenet.be/", "http://apps.servicestrg.telenet.be/", "http://apps.servicesuat.telenet.be/", "http://best-offer-tool-advisor-next.apps.tln-dev.cegeka.be/", "http://best-offer-tool-advisor.apps.tln-dev.cegeka.be/", "http://cdnjs.cloudflare.com/", "http://netdna.bootstrapcdn.com/", "https://apps.servicesuat.telenet.be/", "https://www.google.com/" ]
+   },
    "download": {
       "directory_upgrade": true,
       "extensions_to_open": ""
@@ -41,7 +45,7 @@
       },
       "autoupdate": {
          "last_check": "13059120420058389",
-         "next_check": "13059251095386571"
+         "next_check": "13060426959980049"
       },
       "chrome_url_overrides": {
          "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
@@ -50,13 +54,13 @@
 
       },
       "install_signature": {
-         "expire_date": "2015-01-21",
-         "ids": [ "bepbmhgboaologfdajaanbcjmnhjmhfn", "jlgdloilieclkegafohackmhffbmdpko" ],
+         "expire_date": "2015-01-27",
+         "ids": [ "bepbmhgboaologfdajaanbcjmnhjmhfn" ],
          "invalid_ids": [  ],
-         "salt": "IEobfUDyiTd09eCXPuvBfG9Ir9UoLVL04bOFD1gqRtU=",
-         "signature": "TUYRvc4Rc3+u8+7recJ9xmSJ5DIsFgwoch5cT3R+rbL1Fb7GEk/TG//Y3e38lm1W8p5uKtYr7fxiBe9KZqJV/35rl83KWbOoC15qkL0Nb/8akRE0H5ozFABYAM65CnGi5+SL2SFpCRFT1eTK+0fJunG0C2/u3JnFbbwnQbZI/e3UY8fu7c8k9XNiy/9A3V/o2d3nV9zt37IxKTY2EHP/7FhUiUZ6Ks8v68GgKKo6ZExxoJJs0YiCyUsmdL7R5rbuiUx8bUn0hJbgWbkuSKdXc3LfEnEiCr1spZkXAYvC+IXjJxJZKuIXSSHpHI2MUaSg6qbH0qiaUn7uO9EOMQjjMg==",
+         "salt": "BF6bVYQo8gfynvPfwDO3p5zhbIwkp4Dol/Toew1suiU=",
+         "signature": "PDMb3MCVWe+qshNaQvkPviZCAXYVfhkZHnTuJhVqdaeWNkBETonNGmusvuSZPydyohZuQkAcgf4imxqRqyKHRXTaKzn/kmQe1jnycvDCcD2jrYQlAbpboyOWWEU5Q5qCeYlckSlhhAjkfy4IU/QYZOI+vm2cwaGqefKq6UCyp3aabvRbV8CBssgOQIRoUg+E+XkfVspmPzR/RdSdyfIiqIHrpRdgH7PqmtQr95+rE9F701y7jSoAfsHTxVqkMyIdMuafaUYB8DsIgUA35DoP980tK+Bmk323m3MUzglQjXt46IOv9WBfMazAe8vzEYmr1e1Ul0m2BcyDrUNcUSLVjQ==",
          "signature_format_version": 2,
-         "timestamp": "13059069906930797"
+         "timestamp": "13059564101527459"
       },
       "last_chrome_version": "38.0.2125.101",
       "settings": {
@@ -987,7 +991,7 @@
       },
       "theme": {
          "id": "jlgdloilieclkegafohackmhffbmdpko",
-         "pack": "C:\\Users\\bkdevtelenet\\Documents\\GitHub\\overviewStatusPages\\GoogleChromePortable\\Data\\profile\\Default\\Extensions\\jlgdloilieclkegafohackmhffbmdpko\\2_0\\Cached Theme.pak"
+         "pack": "D:\\github\\overviewStatusPages\\GoogleChromePortable\\Data\\profile\\Default\\Extensions\\jlgdloilieclkegafohackmhffbmdpko\\2_0\\Cached Theme.pak"
       }
    },
    "hotword": {
@@ -1064,6 +1068,9 @@
                   "probability": 0.01,
                   "protocol_str": "quic"
                }
+            },
+            "cdnjs.cloudflare.com:443": {
+               "supports_spdy": true
             },
             "chrome.google.com:443": {
                "alternate_protocol": {
@@ -1143,6 +1150,13 @@
                }
             },
             "errors.angularjs.org:443": {
+               "supports_spdy": true
+            },
+            "fbstatic-a.akamaihd.net:443": {
+               "settings": {
+                  "4": 20,
+                  "7": 65536
+               },
                "supports_spdy": true
             },
             "fonts.googleapis.com:443": {
@@ -1312,6 +1326,9 @@
                   "probability": 0.01,
                   "protocol_str": "quic"
                },
+               "settings": {
+                  "4": 100
+               },
                "supports_spdy": true
             },
             "stats.g.doubleclick.net:443": {
@@ -1339,7 +1356,7 @@
             "tpc.googlesyndication.com:80": {
                "alternate_protocol": {
                   "port": 80,
-                  "probability": 0.01,
+                  "probability": 1.0,
                   "protocol_str": "quic"
                }
             },
@@ -1358,7 +1375,17 @@
                },
                "supports_spdy": true
             },
+            "www.facebook.com:443": {
+               "supports_spdy": true
+            },
             "www.google-analytics.com:80": {
+               "alternate_protocol": {
+                  "port": 80,
+                  "probability": 0.01,
+                  "protocol_str": "quic"
+               }
+            },
+            "www.google.be:80": {
                "alternate_protocol": {
                   "port": 80,
                   "probability": 0.01,
@@ -1385,11 +1412,21 @@
                   "protocol_str": "quic"
                }
             },
+            "www.googleadservices.com:80": {
+               "alternate_protocol": {
+                  "port": 80,
+                  "probability": 0.01,
+                  "protocol_str": "quic"
+               }
+            },
             "www.googleapis.com:443": {
                "alternate_protocol": {
                   "port": 443,
                   "probability": 0.01,
                   "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100
                },
                "supports_spdy": true
             },
@@ -1485,56 +1522,56 @@
    "protection": {
       "macs": {
          "browser": {
-            "show_home_button": "BE7D6A467931ECD3A2CF27C0DA269B03DB18FE0A9C39B4C5CBDFE35FBD479261"
+            "show_home_button": "AB46B16A46F1195996A44CD48CE780F28EB7C35AC98CB924B0E0BCCFED9C5E1A"
          },
          "default_search_provider": {
-            "keyword": "15EF9621B006DFE12482FEE57C83F9954543B6CDBE6D00583E4B7AE6F2024D80",
-            "name": "97041C96849235A9B1A4ECFBC33BBDDA997531EC3FF91E1DBD312EF06F8E8B57",
-            "search_url": "331980F7C22DBEC9FAE379FA4FF0D783A4AD9522292558D00750581C0C6B98BE"
+            "keyword": "8C6E9847C893185C300B08B7F7051748BA5B7383896E547A5EDC93BB67623B95",
+            "name": "755040132CF1726FBF9FE77FB9E5DCE7CB456682818227604893A73BA12B26DB",
+            "search_url": "4231B72634352E47E05C1C6D852EBDD25F3644E0F47A229D283B6C96EA0FB655"
          },
          "default_search_provider_data": {
-            "template_url_data": "44BDE6B2D5906D6067B8108717022CFDCF51EF5FF5934CA0E036D781FA4A1A29"
+            "template_url_data": "9BB72643FD1E5CF17B0407FBA77A4A7D47B8B4CD4236C0CF0A0408648371D2B4"
          },
          "extensions": {
             "settings": {
-               "ahfgeienlihckogmohjhadlkjgocpleb": "E338AF1E457CBC6DCDCE3B2B3FB65AF47B2F27463CDDA2DCA8AE22A572068BF7",
-               "bepbmhgboaologfdajaanbcjmnhjmhfn": "114FFA0FBAE6EC61BF264E2F50E1D4E45F3D77E4936CB0E89AA74AC5BFD85706",
-               "dnhpdliibojhegemfjheidglijccjfmc": "8E83F30581EBE53D3265ADC04B1EB7524A497B6537D0CB2D485E7D8C6F1F2C8C",
-               "eemcgdkfndhakfknompkggombfjjjeno": "2705644A3A96740486BF29E655A4325C5FF224890509DE31380F681772E6E65B",
-               "ennkphjdgehloodpbhlhldgbnhmacadg": "FFC8E08DC265F8991E72027E5401220CEE01C9DC6F763595E47670DBBD07BB3F",
-               "gfdkimpbcpahaombhbimeihdjnejgicl": "ED87DA23593FC4A1C69CC5A55F1A4C42C14404007F18B8C07EB7F6E2194A9FDF",
-               "jlgdloilieclkegafohackmhffbmdpko": "D1086CF94126E5FBB65488A60F7E76000A24AA950425E42BF56B606A8566D3B8",
-               "kmendfapggjehodndflmmgagdbamhnfd": "A21F57C2E9F09950B15A9CB41367C13679EDCA84B64EAAFA746919A18D194CF1",
-               "mfehgcgbbipciphmccgaenjidiccnmng": "DFE8321553CB25A3BDCD452515FABD06C6813375C4701F665305DDD053408F33",
-               "mgndgikekgjfcpckkfioiadnlibdjbkf": "014EF65DAB2953C684DD92025CEEBE4F20D19087F44B68F66D2949A274341F05",
-               "neajdppkdcdipfabeoofebfddakdcjhd": "E1DCB310497D1E705F4281243D2D882A001035ADE728F70F6043163C466E0157",
-               "nkeimhogjdpnpccoofpliimaahmaaome": "F907CC7C6AF8F0A87674A9CCF8D852CDAAE3F4CF7824F5EF45911CC4C7BE0C3F",
-               "nmmhkkegccagdldgiimedpiccmgmieda": "107F81014C55177D0DAA9C3E51A68D5C5C6A2806B1B372718928D82AFE43F5B6",
-               "pafkbggdmjlpgkdkcbjmhmfcdpncadgh": "9AB71F66E71ED05E22DFE766F1461C94F0A537AC62FBFE2679FA0AA6A5E2DDCC"
+               "ahfgeienlihckogmohjhadlkjgocpleb": "D20195DBC3739A01215940A1ED779F50E324E266D96AB3DC812EDC20F430A83F",
+               "bepbmhgboaologfdajaanbcjmnhjmhfn": "53D0BE2AF4C5B20CEC994273582DBEA1316FE4D4755D51455614E43E28C6D70A",
+               "dnhpdliibojhegemfjheidglijccjfmc": "BB77D6BB2FD7E9C2AD8603FDEACAEFBAC384B806D5E90F2FC7C8749043E2AFD9",
+               "eemcgdkfndhakfknompkggombfjjjeno": "77382803FA8CFBB54DA63320EB23C0382B5BAB8A6CD387962161623471DF57E0",
+               "ennkphjdgehloodpbhlhldgbnhmacadg": "068238AD591A508C9272B7B753D15BE74FF58B67642BC8B8FFD2562FC156D78C",
+               "gfdkimpbcpahaombhbimeihdjnejgicl": "B2E37C266B7AEF9E50DE4AE045B65E48D8A3B1DCC6D1998240BBE4F1B0433B77",
+               "jlgdloilieclkegafohackmhffbmdpko": "30D0E2A24750AE8917D5EF8565BAB11C34E36FD43F2A2A4E96CEB0331770C08D",
+               "kmendfapggjehodndflmmgagdbamhnfd": "7F61FAEEA80960897099121C4896645286482ED1A887F0BDAA3C4588EBDA14C4",
+               "mfehgcgbbipciphmccgaenjidiccnmng": "CC461CD497AA494291EB886A69595982D05469CCF6BDBB7413C3134F4C93FED1",
+               "mgndgikekgjfcpckkfioiadnlibdjbkf": "72FDAAD65E08F5E5344758D47ADA6C29D31C21FB895E313EEFEC9E5B3B7B83B3",
+               "neajdppkdcdipfabeoofebfddakdcjhd": "5F4062E8A7DAB29421E8DDB6CA19B48CD4BDE5E23CF36751D7124280A65D0BB8",
+               "nkeimhogjdpnpccoofpliimaahmaaome": "164361F9A63B73361766A42F3FCF503C56E79FFDC20F4332218F5E96148DC97A",
+               "nmmhkkegccagdldgiimedpiccmgmieda": "8062F8CCDB485F8D6E085DEBF3AF40D1C35B6B89BE0E7DF179AF6BF01C0FE652",
+               "pafkbggdmjlpgkdkcbjmhmfcdpncadgh": "19AEB778718FEC4E67E0088DE308F5FB73F202A81EB25A7D5769DA65674DDDDC"
             }
          },
          "google": {
             "services": {
-               "last_username": "78E63A72FDFE9B09CEE6C7C14FDE5F186D43AD16A8F3DB53176C335985EE3BE3"
+               "last_username": "0A326E030BA15A646D79275E35116B4448B81CEA93531A8D8587FBFADB66A91C"
             }
          },
-         "homepage": "E60BF7D12B7FDDF2ED82B79ECCD010EF6992A4CE18E866C481D62D9582581C89",
-         "homepage_is_newtabpage": "5FD4DEF1FD06500FC784F5205288A2A99296071F40D985748A1B94D18C229D57",
-         "pinned_tabs": "D6082060E20B9FE63586C539BE2E59DA839F930893F2C8BB4DAEE242BE14389A",
+         "homepage": "4BC50EE14F9BE0EA283A0441D471D68DC874DE841DDFEF451E40157E2BAAA6AF",
+         "homepage_is_newtabpage": "D281F0EDD9CEFEE146EE9C6894C3C30F31D30347D48933F1065237CD42B7B6D2",
+         "pinned_tabs": "64DB30A96D92614587742B879E78D3C6B585BD2727B88A28057A93F2FC3661C0",
          "prefs": {
-            "preference_reset_time": "50CDF0540FD0F331601648C3209263678D766212E4A219824726CFB3A00C4270"
+            "preference_reset_time": "2BB57E70DAF6D0235D35E344B2D36D66E536D99D9A6B23E02D11918D9D8035BC"
          },
          "safebrowsing": {
-            "incident_report_sent": "DD0ECC344D6773CF44A16E535C938D11A1676A77C54D51972DF84E7DDA76E197",
-            "incidents_sent": "4E7A7ECEEC4DA77A71A50EC30B1CBBC9A612F27B538BC6D15E61051AC9A97E5C"
+            "incident_report_sent": "661DE9B092C3F7F207C650C1DE875BDC88B56D18565B9F9D6768F3B6495A3C6B",
+            "incidents_sent": "4147FF9C91BB81F8A7A632CD29F458898B29CF28D54FCB70AE3F4CFC1ED3D013"
          },
-         "search_provider_overrides": "9D41EC750AEFBDB625A80E2730D490AFF7E2056EC5950A80454B7901C441FBBE",
+         "search_provider_overrides": "CD7B3C329C2B5EE62DD1FBF888FA3A1E174A794DFED8C69FAB908EDE93ADF6D7",
          "session": {
-            "restore_on_startup": "1D0D61E7D4EF8CD463395F14A11BB9E3B9A3803E88C2CE4B0D9B3A564A8D0853",
-            "startup_urls": "1FBE40A4890E1AD22A2C16ADDF600A84C86DAC43BC9A16F14496C36E71AB70D9"
+            "restore_on_startup": "B1D28F1535CA20274D4CD31045B47CD0C8C93493E11A070C155DD752229D5352",
+            "startup_urls": "27EC91FA87D76FE60A1083794C40F0EE29EF4E4C5F2789F24DDD0FB0FAF9603E"
          },
          "sync": {
-            "remaining_rollback_tries": "BB3D43696CB7CFA400983E8EC7E69AA13CA6BD3110A971DCF53CA2829FB2CFAF"
+            "remaining_rollback_tries": "163701A223913F78C5710D2C48DF6C5323F0676E8D1E5798808677C7DAB6FA12"
          }
       }
    },

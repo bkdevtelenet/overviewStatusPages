@@ -3,6 +3,7 @@
 
 var bot =  {
 				name: 'BOT',
+				secret: '?secret=IsBotUp#/status',
 				servers: [
 					{url: "http://best-offer-tool-advisor-next.apps.tln-dev.cegeka.be/bestoffer/status/"},	
 					{url: "http://best-offer-tool-advisor.apps.tln-dev.cegeka.be/bestoffer/status/"},	

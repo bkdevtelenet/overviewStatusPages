@@ -1,0 +1,1 @@
+call GoogleChromePortable\GoogleChromePortable.exe --disable-web-security --ignore-certificate-errors %cd%\app\status.html

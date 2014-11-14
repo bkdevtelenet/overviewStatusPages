@@ -17,6 +17,15 @@
       "sts_include_subdomains": true,
       "sts_observed": 1413554839.44564
    },
+   "TZmujbl93Yt3JI8wZ4X/zjkA0WFNGNW44A+o7h4YyHw=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1431504316.082575,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1415952316.082575
+   },
    "cqZMVSQh4p9QE6DZ+HVjDfXF26fWElFYTJD+dH0ZbE8=": {
       "dynamic_spki_hashes_expiry": 0.0,
       "expiry": 1429625241.686044,
